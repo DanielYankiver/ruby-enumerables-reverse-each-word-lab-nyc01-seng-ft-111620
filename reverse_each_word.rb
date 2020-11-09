@@ -1,7 +1,8 @@
 require 'pry'
 
 def reverse_each_word(sentence)
-  sentence.each do ||
+  sentence.split(" ")
+  sentence.each.reverse 
 end
 
 binding.pry 
