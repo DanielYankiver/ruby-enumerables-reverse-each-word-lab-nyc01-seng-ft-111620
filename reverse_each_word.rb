@@ -5,7 +5,7 @@ require 'pry'
 #turn the string into an array
 #.reverse reverses an array
 
-def reverse_each_word(string)
+def reverse_each_word_with_each(string)
   original_array = string.split(" ")
   return_array = []
   original_array.each do |string|
@@ -13,6 +13,5 @@ def reverse_each_word(string)
   end
   return_array.join(" ")
 end
-
 
 
